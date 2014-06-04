@@ -37,19 +37,14 @@ module.exports = function(grunt) {
     // Configuration to be run (and then tested).
     config_crypter: {
       db_config: {
-        options: {
-        },
-        files: [
-          'test/fixtures/testing', 
-          'test/fixtures/123'
+        configs: [
+          'tmp/test/fixtures/mail.php', 
         ]
       },
       mail_config: {
-        options: {
-        },
-        files: [
-          'test/fixtures/testing', 
-          'test/fixtures/123'
+        configs: [
+          'test/testing', 
+          'test/123'
         ]
       }
     },
@@ -67,7 +62,6 @@ module.exports = function(grunt) {
   // These plugins provide necessary tasks.
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-copy');
-  grunt.loadNpmTasks('grunt-contrib-mkdir');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-nodeunit');
 
