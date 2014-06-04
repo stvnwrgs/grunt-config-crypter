@@ -1,0 +1,45 @@
+{
+  "name": "grunt-config-crypter",
+  "description": "A Grunt Plugin for encrypting credentials in config files. Develop your app, create your configs. Then add your credentials and encrypt them. Push you changes, let them decrypt by your ci before you push the code to your server",
+  "version": "0.0.1",
+  "homepage": "https://github.com/stvnwrgs/grunt-config-crypter",
+  "author": {
+    "name": "Steven Wirges",
+    "email": "stevenwirges@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stvnwrgs/grunt-config-crypter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stvnwrgs/grunt-config-crypter/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/stvnwrgs/grunt-config-crypter/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5",
+    "grunt-contrib-copy": "~0.5.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "cryptojs": "~2.5.3"
+  }
+}
