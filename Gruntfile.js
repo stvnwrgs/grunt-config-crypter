@@ -43,8 +43,8 @@ module.exports = function(grunt) {
       },
       mail_config: {
         configs: [
-          'test/testing', 
-          'test/123'
+          'tmp/test/fixtures/mail.php', 
+          'tmp/test/fixtures/vhost',
         ]
       }
     },
