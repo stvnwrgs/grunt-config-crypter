@@ -12,7 +12,7 @@ module.exports = function(grunt) {
   var CryptoJS = require("crypto-js");
 
   var encrypt = function (string, password) {
-    var encrypted = CryptoJS.AES.encrypt(string, password);
+    var encrypted = CryptoJS.AES.encrypt(plainify(string), password);
     return encryptify(encrypted.toString());
   };
 
