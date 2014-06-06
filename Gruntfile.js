@@ -36,15 +36,19 @@ module.exports = function(grunt) {
 
     // Configuration to be run (and then tested).
     config_crypter: {
-      db_config: {
+      conf_config: {
         configs: [
-          'tmp/test/fixtures/mail.php', 
+          'tmp/test/fixtures/conf.json' 
         ]
       },
       mail_config: {
         configs: [
-          'tmp/test/fixtures/mail.php', 
-          'tmp/test/fixtures/vhost',
+          'tmp/test/fixtures/mail.php' 
+        ]
+      },
+      vhost_config: {
+        configs: [
+          'tmp/test/fixtures/vhost'
         ]
       }
     },
@@ -67,7 +71,13 @@ module.exports = function(grunt) {
 
   // Whenever the "test" task is run, first clean the "tmp" dir, then run this
   // plugin's task(s), then test the result.
-  grunt.registerTask('test', ['clean','copy:fixtures']);
+  grunt.registerTask('test', [
+    'clean',
+    'copy:fixtures',
+    'config_crypter:vhost_config:encrypt:asdasd389457',
+    'config_crypter:mail_config:decrypt:asdasd389457',
+    'config_crypter:conf_config:plain:asdasd389457'
+  ]);
 
   // By default, lint and run all tests.
   grunt.registerTask('default', ['jshint', 'test']);

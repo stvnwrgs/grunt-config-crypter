@@ -1,8 +1,8 @@
 {
   "name": "grunt-config-crypter",
-  "description": "decrypted(A Grunt Plugin for encrypting credentials in config files. Develop your app, create your configs. Then add your credentials and encrypt them. Push you changes, let them decrypt by your ci before you push the code to your server)",
+  "description": "encrypted(U2FsdGVkX1/8APCYwoBu7Mv8ARqPdrdgo9eKftIImzs2DTrbXb8YOSikDXdp6GAFurUPZqAcf8cdrMV9N/hI4DeBedudJwFtq5nLdO8hcoTBu1ffUHzJ+fXlFw4yT6G3Nnv2fBIKISQvc4gFfA7dcT0sBr3W+u9QPmSbXCN2QP+AkqJkVdNcfbXaE66UPtCpoQ5g1zlda0/4CubnJ3c4H/IROTl39fRRKI/XWVlUojXgL40ojMgpHe7o94erqmbSwLm8n+b5utKZ40vva645JfmTWEs6AF80udYXWX9mm30zPE+Ra7yQU/tGtycqX5CTtON/6HIsU1vDtdqEL3qTaw==)",
   "version": "0.0.1",
-  "homepage": "decrypted(https://github.com/stvnwrgs/grunt-config-crypter)",
+  "homepage": "encrypted(U2FsdGVkX19xY4aECIYO0W+qGHb2s3dnCFaw06eKO+lQGNn2eaLlw34/wdv2cJ1UxWda6FmlPmU6zQH4vV6qujvzHJB+9YIdB7ojoOOrINk=)",
   "author": {
     "name": "Steven Wirges",
     "email": "stevenwirges@gmail.com"

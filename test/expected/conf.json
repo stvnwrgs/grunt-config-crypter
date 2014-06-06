@@ -1,0 +1,10 @@
+{
+  "name": "grunt-config-crypter",
+  "description": "A Grunt Plugin for encrypting credentials in config files. Develop your app, create your configs. Then add your credentials and encrypt them. Push you changes, let them decrypt by your ci before you push the code to your server",
+  "version": "0.0.1",
+  "homepage": "https://github.com/stvnwrgs/grunt-config-crypter",
+  "author": {
+    "name": "Steven Wirges",
+    "email": "stevenwirges@gmail.com"
+  }
+}
